@@ -1,0 +1,81 @@
+html{
+    background-image: url('../dav.jpg');
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: 50% 0%;
+}
+button{
+	left: 10%;
+	width: 50%;
+	height: 100px;
+}
+#Menu{
+	width: 100%;
+	top: 0;
+	position: absolute;
+	background-color: gray;
+	height: 100%;
+	 -webkit-transition: left .5s;
+	 z-index: 2;
+}
+.hide{
+	left: -100%;
+}
+.display{
+	left: 0;
+}
+#close{
+	position: relative;
+	float: right;
+
+	font-size: 24pt;
+	z-index: 2;
+	padding:50px;
+}
+#open{
+	font-size: 24pt;
+	background-color: gray;
+	left: 0;
+	top: 0;
+	padding: 30px;
+	position: fixed;
+}
+h1{
+	text-align: center;
+}
+#scann{
+	position: absolute;
+	left: 25%;
+	top: 60%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.items{
+	position: relative;
+	float: left;
+	padding: 20%;
+	padding-top: 30%;
+}
+#TitleTwo{
+position: fixed;
+right: 0%;
+left:0%;
+text-align: center;
+color: #fff2cc;
+font-size: 30pt;
+z-index: 2;
+}
+#TitleOne{
+position: fixed;
+right: 0%;
+left:0%;
+text-align: center;
+color: black;
+font-size: 31pt;
+z-index: 1;
+}
+#spacer{
+	padding-top: 30%;
+}

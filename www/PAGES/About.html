@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Main Menu</title>
+       	<link rel="stylesheet" type="text/css" href="../CSS/home.css">
+    </head>
+    <body>
+    <h1 id="TitleOne">About</h1>
+    <h1 id="TitleTwo">About</h1>
+    <div id="spacer"></div>
+        <div id="Menu" class="hide">
+                <a class="show" id="close"> <div><b>X</b></div></a>
+                <a href="../index.html"><div class="items">Home</div></a>
+                <a href="../PAGES/trails.html"><div class="items">Trails</div></a>
+                <a href="../PAGES/About.html"><div class="items">About</div></a>
+        </div>
+        <a id="open" class="show"><b>&#x2261;</b></a>
+        <div>This is an amazing app created by TurtleClan</div>
+    	<script type="text/javascript" src="../JS/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="../../platforms/browser/platform_www/cordova.js"></script>
+        <script type="text/javascript" src="../JS/scann.js"></script>
+        <script type="text/javascript">
+        	$(document).ready(function(){
+        		$('.show').click(function() {
+        			$('#Menu').toggleClass('hide').toggleClass('display');
+        		});
+        	});
+
+        		
+        	
+        </script>
+    </body>
+</html>
